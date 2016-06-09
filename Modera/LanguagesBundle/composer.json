@@ -1,5 +1,5 @@
 {
-    "name": "modera/languages-bundle",
+    "name": "hydface/languages-bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
@@ -19,7 +19,9 @@
         "phpunit/phpunit": "3.*"
     },
     "autoload": {
-        "psr-0": { "Modera\\LanguagesBundle": "" }
+        "psr-0": {
+            "Modera\\LanguagesBundle": ""
+        }
     },
     "target-dir": "Modera/LanguagesBundle",
     "extra": {

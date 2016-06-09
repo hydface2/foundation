@@ -1,5 +1,5 @@
 {
-    "name": "modera/activity-logger-bundle",
+    "name": "hydface/activity-logger-bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
@@ -22,7 +22,9 @@
         "phpunit/phpunit": "3.7.*"
     },
     "autoload": {
-        "psr-0": { "Modera\\ActivityLoggerBundle": "" }
+        "psr-0": {
+            "Modera\\ActivityLoggerBundle": ""
+        }
     },
     "target-dir": "Modera/ActivityLoggerBundle",
     "extra": {

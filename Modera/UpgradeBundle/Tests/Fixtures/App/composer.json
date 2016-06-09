@@ -1,5 +1,5 @@
 {
-    "name": "modera/upgrade-bundle-test",
+    "name": "hydface/upgrade-bundle-test",
     "repositories": [
         {
             "type": "composer",

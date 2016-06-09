@@ -1,5 +1,5 @@
 {
-    "name": "modera/translations-bundle",
+    "name": "hydface/translations-bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
@@ -17,7 +17,7 @@
         "doctrine/orm": "~2.2,>=2.2.3",
         "symfony/framework-bundle": "~2.0",
         "doctrine/doctrine-bundle": "~1.2",
-        "modera/languages-bundle": "~1.0"
+        "hydface/languages-bundle": "dev-master"
     },
     "require-dev": {
         "modera/foundation-bundle": "~1.0",
@@ -25,7 +25,9 @@
         "phpunit/phpunit": "3.*"
     },
     "autoload": {
-        "psr-0": { "Modera\\TranslationsBundle": "" }
+        "psr-0": {
+            "Modera\\TranslationsBundle": ""
+        }
     },
     "target-dir": "Modera/TranslationsBundle",
     "extra": {

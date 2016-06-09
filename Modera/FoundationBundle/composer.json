@@ -1,5 +1,5 @@
 {
-    "name": "modera/foundation-bundle",
+    "name": "hydface/foundation-bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
@@ -17,7 +17,9 @@
         "phpunit/phpunit": "3.7.*"
     },
     "autoload": {
-        "psr-0": { "Modera\\FoundationBundle": "" }
+        "psr-0": {
+            "Modera\\FoundationBundle": ""
+        }
     },
     "target-dir": "Modera/FoundationBundle",
     "extra": {

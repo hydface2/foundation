@@ -1,5 +1,5 @@
 {
-    "name": "modera/upgrade-bundle",
+    "name": "hydface/upgrade-bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
@@ -17,7 +17,9 @@
         "phpunit/phpunit": "3.7.*"
     },
     "autoload": {
-        "psr-0": { "Modera\\UpgradeBundle": "" }
+        "psr-0": {
+            "Modera\\UpgradeBundle": ""
+        }
     },
     "target-dir": "Modera/UpgradeBundle",
     "extra": {

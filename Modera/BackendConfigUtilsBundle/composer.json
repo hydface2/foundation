@@ -1,5 +1,5 @@
 {
-    "name": "modera/backend-config-utils-bundle",
+    "name": "hydface/backend-config-utils-bundle",
     "type": "symfony-bundle",
     "description": "Bundle provides tools that simplify contributing your own configuration sections to 'Backend/Tools/Settings' section.",
     "license": "MIT",
@@ -13,15 +13,17 @@
     "require": {
         "php": ">=5.4.0",
         "symfony/framework-bundle": "~2.0",
-        "modera/dynamically-configurable-mjr-bundle": "~1.0",
-        "modera/server-crud-bundle": "~1.0|~2.0"
+        "hydface/dynamically-configurable-mjr-bundle": "dev-master",
+        "hydface/server-crud-bundle": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*",
         "phake/phake": "~2.0"
     },
     "autoload": {
-        "psr-0": { "Modera\\BackendConfigUtilsBundle": "" }
+        "psr-0": {
+            "Modera\\BackendConfigUtilsBundle": ""
+        }
     },
     "target-dir": "Modera/BackendConfigUtilsBundle",
     "extra": {

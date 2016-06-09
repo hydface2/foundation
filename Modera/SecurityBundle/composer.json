@@ -1,5 +1,5 @@
 {
-    "name": "modera/security-bundle",
+    "name": "hydface/security-bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "description": "Provides database aware implementation of Security model + some other perks",
@@ -20,7 +20,7 @@
         "symfony/framework-bundle": "~2.6",
         "doctrine/doctrine-bundle": "~1.2",
         "sergeil/extjsintegration-bundle": "~1.0",
-        "modera/foundation-bundle": "~1.0"
+        "hydface/foundation-bundle": "dev-master"
     },
     "require-dev": {
         "modera/foundation-bundle": "~1.0",
@@ -29,7 +29,9 @@
         "phpunit/phpunit": "3.*"
     },
     "autoload": {
-        "psr-0": { "Modera\\SecurityBundle": "" }
+        "psr-0": {
+            "Modera\\SecurityBundle": ""
+        }
     },
     "target-dir": "Modera/SecurityBundle",
     "extra": {

@@ -1,10 +1,12 @@
 {
-    "name": "modera/mjr-integration-bundle",
+    "name": "hydface/mjr-integration-bundle",
     "type": "symfony-bundle",
     "description": "Provides low level integration for MJR.",
     "license": "MIT",
     "homepage": "http://modera.org",
-    "keywords": ["mjr"],
+    "keywords": [
+        "mjr"
+    ],
     "authors": [
         {
             "name": "Sergei Lissovski",
@@ -16,14 +18,16 @@
         "php": ">=5.4.0",
         "symfony/framework-bundle": "~2.0",
         "sergeil/expander-bundle": "~1.0",
-        "modera/direct-bundle": "~1.0"
+        "hydface/direct-bundle": "dev-master"
     },
     "require-dev": {
         "phake/phake": "2.*",
         "phpunit/phpunit": "3.*"
     },
     "autoload": {
-        "psr-0": { "Modera\\MjrIntegrationBundle": "" }
+        "psr-0": {
+            "Modera\\MjrIntegrationBundle": ""
+        }
     },
     "target-dir": "Modera/MjrIntegrationBundle",
     "extra": {

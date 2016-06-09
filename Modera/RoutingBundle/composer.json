@@ -1,5 +1,5 @@
 {
-    "name": "modera/routing-bundle",
+    "name": "hydface/routing-bundle",
     "type": "symfony-bundle",
     "description": "This bundle makes it possible for bundles to dynamically include routing files from within your bundles.",
     "license": "MIT",
@@ -23,7 +23,9 @@
         "phake/phake": "1.*"
     },
     "autoload": {
-        "psr-0": { "Modera\\RoutingBundle": "" }
+        "psr-0": {
+            "Modera\\RoutingBundle": ""
+        }
     },
     "target-dir": "Modera/RoutingBundle",
     "extra": {

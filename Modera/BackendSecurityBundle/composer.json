@@ -1,5 +1,5 @@
 {
-    "name": "modera/backend-security-bundle",
+    "name": "hydface/backend-security-bundle",
     "type": "symfony-bundle",
     "description": "Bundle provides UI section for MF that makes it possible to manage users/groups/permissions.",
     "license": "MIT",
@@ -18,13 +18,13 @@
         "php": ">=5.4.0",
         "symfony/framework-bundle": "~2.6",
         "symfony/swiftmailer-bundle": "~2.3",
-        "modera/security-bundle": "~2.0",
-        "modera/backend-tools-bundle": "~2.0",
-        "modera/mjr-integration-bundle": "~1.1",
-        "modera/backend-languages-bundle": "~2.0",
-        "modera/translations-bundle": "~1.0",
-        "modera/activity-logger-bundle": "~1.0",
-        "modera/server-crud-bundle": "~2.0"
+        "hydface/security-bundle": "dev-master",
+        "hydface/backend-tools-bundle": "dev-master",
+        "hydface/mjr-integration-bundle": "dev-master",
+        "hydface/backend-languages-bundle": "dev-master",
+        "hydface/translations-bundle": "dev-master",
+        "hydface/activity-logger-bundle": "dev-master",
+        "hydface/server-crud-bundle": "dev-master"
     },
     "require-dev": {
         "modera/foundation-bundle": "~1.0",
@@ -32,7 +32,9 @@
         "phpunit/phpunit": "3.*"
     },
     "autoload": {
-        "psr-0": { "Modera\\BackendSecurityBundle": "" }
+        "psr-0": {
+            "Modera\\BackendSecurityBundle": ""
+        }
     },
     "target-dir": "Modera/BackendSecurityBundle",
     "extra": {

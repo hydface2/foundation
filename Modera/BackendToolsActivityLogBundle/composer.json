@@ -1,5 +1,5 @@
 {
-    "name": "modera/backend-tools-activity-log-bundle",
+    "name": "hydface/backend-tools-activity-log-bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
@@ -14,13 +14,15 @@
         "sergeil/expander-bundle": "~1.0",
         "symfony/symfony": "~2.0",
         "symfony/framework-bundle": "~2.0",
-        "modera/foundation-bundle": "~1.0"
+        "hydface/foundation-bundle": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*"
     },
     "autoload": {
-        "psr-0": { "Modera\\BackendToolsActivityLogBundle": "" }
+        "psr-0": {
+            "Modera\\BackendToolsActivityLogBundle": ""
+        }
     },
     "target-dir": "Modera/BackendToolsActivityLogBundle",
     "extra": {

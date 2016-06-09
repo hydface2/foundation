@@ -1,5 +1,5 @@
 {
-    "name": "modera/config-bundle",
+    "name": "hydface/config-bundle",
     "type": "symfony-bundle",
     "description": "Bundles provides tools that allow to you to dynamically store and fetch your configuration properties in a flexible way.",
     "license": "MIT",
@@ -15,16 +15,18 @@
         "symfony/framework-bundle": "~2.0",
         "doctrine/orm": "~2.2,>=2.2.3",
         "doctrine/doctrine-bundle": "~1.2",
-        "modera/foundation-bundle": "~1.0",
         "sergeil/expander-bundle": "~1.0",
-        "twig/twig": "~1.0"
+        "twig/twig": "~1.0",
+        "hydface/foundation-bundle": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*",
         "phake/phake": "~2.0"
     },
     "autoload": {
-        "psr-0": { "Modera\\ConfigBundle": "" }
+        "psr-0": {
+            "Modera\\ConfigBundle": ""
+        }
     },
     "target-dir": "Modera/ConfigBundle",
     "extra": {

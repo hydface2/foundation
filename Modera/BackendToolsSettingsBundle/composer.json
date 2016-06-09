@@ -1,5 +1,5 @@
 {
-    "name": "modera/backend-tools-settings-bundle",
+    "name": "hydface/backend-tools-settings-bundle",
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
@@ -11,13 +11,15 @@
     "require": {
         "php": ">=5.4.0",
         "symfony/framework-bundle": "~2.0",
-        "modera/foundation-bundle": "~1.0"
+        "hydface/foundation-bundle": "dev-master"
     },
     "require-dev": {
         "phpunit/phpunit": "3.*"
     },
     "autoload": {
-        "psr-0": { "Modera\\BackendToolsSettingsBundle": "" }
+        "psr-0": {
+            "Modera\\BackendToolsSettingsBundle": ""
+        }
     },
     "target-dir": "Modera/BackendToolsSettingsBundle",
     "extra": {
