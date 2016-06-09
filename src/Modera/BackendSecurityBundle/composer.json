@@ -1,0 +1,45 @@
+{
+    "name": "hydface/backend-security-bundle",
+    "type": "symfony-bundle",
+    "description": "Bundle provides UI section for MF that makes it possible to manage users/groups/permissions.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergei Vizel",
+            "email": "sergei.vizel@modera.org"
+        },
+        {
+            "name": "Sergei Lissovski",
+            "email": "sergei.lissovski@modera.org",
+            "homepage": "http://sergei.lissovski.org/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/framework-bundle": "~2.6",
+        "symfony/swiftmailer-bundle": "~2.3",
+        "hydface/security-bundle": "dev-master",
+        "hydface/backend-tools-bundle": "dev-master",
+        "hydface/mjr-integration-bundle": "dev-master",
+        "hydface/backend-languages-bundle": "dev-master",
+        "hydface/translations-bundle": "dev-master",
+        "hydface/activity-logger-bundle": "dev-master",
+        "hydface/server-crud-bundle": "dev-master"
+    },
+    "require-dev": {
+        "modera/foundation-bundle": "~1.0",
+        "phake/phake": "2.*",
+        "phpunit/phpunit": "3.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Modera\\BackendSecurityBundle": ""
+        }
+    },
+    "target-dir": "Modera/BackendSecurityBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "3.x-dev"
+        }
+    }
+}
