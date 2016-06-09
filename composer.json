@@ -1,0 +1,26 @@
+{
+    "name": "modera/mjr-security-integration-bundle",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergei Lissovski",
+            "email": "sergei.lissovski@modera.org",
+            "homepage": "http://sergei.lissovski.org/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "symfony/framework-bundle": "~2.0",
+        "modera/mjr-integration-bundle": "~1.3"
+    },
+    "autoload": {
+        "psr-0": { "Modera\\MJRSecurityIntegrationBundle": "" }
+    },
+    "target-dir": "Modera/MJRSecurityIntegrationBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.1-dev"
+        }
+    }
+}
