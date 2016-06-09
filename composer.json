@@ -40,7 +40,9 @@
         "hydface/backend-tools-activity-log-bundle": "self.version",
         "hydface/backend-tools-settings-bundle": "self.version",
         "hydface/backend-config-utils-bundle": "self.version",
-        "hydface/backend-dashboard-bundle": "self.version"
+        "hydface/backend-dashboard-bundle": "self.version",
+        "hydface/direct-bundle": "self.version",
+        "hydface/mjr-cache-aware-class-loader": "self.version"
     },
     "extra": {
         "branch-alias": {
