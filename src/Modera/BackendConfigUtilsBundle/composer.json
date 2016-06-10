@@ -13,8 +13,8 @@
     "require": {
         "php": ">=5.4.0",
         "symfony/framework-bundle": "~2.0",
-        "hydface/dynamically-configurable-mjr-bundle": "dev-master",
-        "hydface/server-crud-bundle": "dev-master"
+        "hydface/dynamically-configurable-mjr-bundle": "self.version",
+        "hydface/server-crud-bundle": "self.version"
     },
     "require-dev": {
         "phpunit/phpunit": "3.7.*",

@@ -12,9 +12,9 @@
     "require": {
         "php": ">=5.3.0",
         "symfony/framework-bundle": "~2.0",
-        "hydface/config-bundle": "dev-master",
-        "hydface/foundation-bundle": "dev-master",
-        "hydface/translations-bundle": "dev-master"
+        "hydface/config-bundle": "self.version",
+        "hydface/foundation-bundle": "self.version",
+        "hydface/translations-bundle": "self.version"
     },
     "autoload": {
         "psr-0": {

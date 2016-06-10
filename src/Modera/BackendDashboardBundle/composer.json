@@ -15,8 +15,8 @@
     "require": {
         "php": ">=5.4.0",
         "sergeil/expander-bundle": "~1.0",
-        "hydface/foundation-bundle": "dev-master",
-        "hydface/mjr-integration-bundle": "dev-master"
+        "hydface/foundation-bundle": "self.version",
+        "hydface/mjr-integration-bundle": "self.version"
     },
     "autoload": {
         "psr-0": {

@@ -19,9 +19,9 @@
         "symfony/symfony": "~2.0",
         "sergeil/expander-bundle": "~1.0",
         "doctrine/orm": "~2.2,>=2.2.3,<2.5",
-        "hydface/mjr-integration-bundle": "dev-master",
-        "hydface/foundation-bundle": "dev-master",
-        "hydface/security-bundle": "dev-master"
+        "hydface/mjr-integration-bundle": "self.version",
+        "hydface/foundation-bundle": "self.version",
+        "hydface/security-bundle": "self.version"
     },
     "require-dev": {
         "phake/phake": "~2.0",
